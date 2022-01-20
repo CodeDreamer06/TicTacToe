@@ -120,7 +120,7 @@ namespace TicTacToe
                 Button0_0.Background = Button1_1.Background = Button2_2.Background = Brushes.Green;
             }
 
-            else if (Results[1] != MarkType.Free && (Results[2] & Results[4] & Results[6]) == Results[1])
+            else if (Results[2] != MarkType.Free && (Results[2] & Results[4] & Results[6]) == Results[2])
             {
                 GameEnded = true;
                 Button2_0.Background = Button1_1.Background = Button0_2.Background = Brushes.Green;
